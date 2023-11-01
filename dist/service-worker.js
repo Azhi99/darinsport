@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cb176667c00c0d829d7bd7e85b069195.js"
+  "/precache-manifest.cf39d094494da5e6649b6693538cd2b4.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "darin-game"});
+workbox.core.setCacheNameDetails({prefix: "darin-sport"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
