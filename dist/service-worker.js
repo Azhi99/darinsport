@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cf39d094494da5e6649b6693538cd2b4.js"
+  "/precache-manifest.b9c16c97aaaaafb8a12a21958de06ac4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "darin-sport"});
